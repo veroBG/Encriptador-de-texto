@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;700&display=swap');
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+body{
+    background-color: #F3F5FC;
+}
+header{
+    margin: 1.5rem 1rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 1.5rem 2.5rem 1.5rem;
+}
+
+.funcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+
+#entrada{
+    background-color: #F3F5FC;
+    border: none;
+    color: #0A3871;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 0.5rem;
+    outline: none;
+}
+
+textarea::placeholder{
+    color: #0A3871;
+    font-size: 2rem;
+}
+
+.alerta{
+    color: #495057;
+    font-size: 0.75rem;
+    margin: 0.5rem 0;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.botones>button{
+    border-radius: 1.1rem;
+    border-color:#0A3871;
+    font-size: 1rem;
+    font-weight: 200;
+    margin: 0.5rem 0 0 0;
+    padding: 1rem 0;
+}
+
+textarea {
+    resize: none;
+}
+
+#encriptar{
+    background-color: #0A3871;
+    color: #FFFFFF;
+}
+
+#respuesta{
+    background-color: #FFFFFF;
+    border-radius: 2rem;
+    color:#343A40;
+    margin: 3rem 0 0 0;
+    padding: 2rem;
+    text-align: center;
+    white-space: pre-line;
+    overflow: hidden;
+}
+
+#respuesta img{
+    display: none;
+}
+
+#respuesta h2{
+    font-weight: 700;
+}
+
+#respuesta p{
+    font-weight: 400;
+    margin-top: 1rem;
+    white-space: pre-wrap;
+}
+
+#render{
+    font-size: 1.5rem;
+    margin:1.5rem;
+    text-align: justify;
+}
+
+#btn{
+    border-radius: 1rem;
+    border-color:#0A3871;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 0.5rem;
+    padding: 1.4rem 5rem;
+}
+
+footer{
+    color: #495057;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px){
+    .botones{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .botones>button{
+        margin: 0.5rem 0;
+        padding: 1rem 7rem;
+    }
+}
+
+@media screen and (min-width: 1023px){
+    *{
+        margin: 0.5rem;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        margin: 4rem 1.5rem 0 10rem;
+
+    }
+    .funcion{
+        width: 70%;
+        margin-right: 2rem;
+        
+    }
+    .botones{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .botones>button{
+        margin: 0.5rem 0;
+        padding: 1rem 4.5rem;
+    }
+    #respuesta{
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+        margin: 1rem 1rem 0 1rem;
+        padding: 2rem 2rem 1rem 2rem;
+        text-align: center;
+        width: 30%;
+        word-wrap: break-word;
+    }
+    #respuesta img{
+        display: block;
+        width: 100%;
+    }
+    #render{
+        text-align: left;
+    }
+    #btn{
+        border-radius: 1.3rem;
+        word-wrap: normal;
+        padding: 1.4rem;
+    }
+    
+}
