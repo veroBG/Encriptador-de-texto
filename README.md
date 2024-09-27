@@ -29,3 +29,15 @@ gaitober" => "gato"
 * El resultado debe ser mostrado en la pantalla.
 
 <h1 style="text-align: center;">Diseño final 👩‍💻 </h1>
+
+#### Pagina inicial 💻
+![Pagina inicial](https://raw.githubusercontent.com/veroBG/Encriptador-de-texto/refs/heads/main/img/paginaweb-final.PNG)
+
+#### Texto encriptado 
+![Texto encriptado](https://raw.githubusercontent.com/veroBG/Encriptador-de-texto/refs/heads/main/img/paginaweb-encriptadorl.PNG)
+
+#### Texto desencriptado
+![Texto des-encriptado](https://raw.githubusercontent.com/veroBG/Encriptador-de-texto/main/img/paginaweb-desencriptador.PNG)
+
+
+
