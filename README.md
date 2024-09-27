@@ -1,5 +1,5 @@
 <h1 style="text-align: center;">Encriptador de texto 👩‍💻 </h1>
-Bienvenido a mi proyecto. Puedes visitar nuestro sitio web aquí: (https://verobg.github.io/Encriptador-de-texto/).
+Bienvenido a mi proyecto. Puedes ver el resultado final ➡: (https://verobg.github.io/Encriptador-de-texto/).
 
 ## Descripción
 
